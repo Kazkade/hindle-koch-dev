@@ -1,0 +1,1855 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base
+# 
+# Translators:
+# Binh Lam <ltb0374@gmail.com>, 2019
+# Tri Bui <tribd@trobz.com>, 2019
+# Anh Vu <vuna2004@gmail.com>, 2019
+# Tuan Tran <tmtuan.projects@gmail.com>, 2019
+# Minh Nguyen <ndminh210994@gmail.com>, 2019
+# Thang Duong Bao <nothingctrl@gmail.com>, 2019
+# Jean-Charles Drubay <jcdrubay@gmail.com>, 2019
+# Dao Nguyen <trucdao.uel@gmail.com>, 2019
+# fanha99 <fanha99@hotmail.com>, 2019
+# Dung Nguyen Thi <dungnt@trobz.com>, 2019
+# Trinh Tran Thi Phuong <trinhttp@trobz.com>, 2019
+# Martin Trigaux, 2019
+# Duy BQ <duybq86@gmail.com>, 2020
+# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-01 12:22+0000\n"
+"PO-Revision-Date: 2019-08-26 09:06+0000\n"
+"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2020\n"
+"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_cn_small_business
+msgid ""
+"\n"
+"\n"
+"    科目类型\\会计科目表模板\\增值税\\辅助核算类别\\管理会计凭证簿\\财务会计凭证簿\n"
+"\n"
+"    添加中文省份数据\n"
+"\n"
+"    增加小企业会计科目表\n"
+"\n"
+"    "
+msgstr ""
+"\n"
+"\n"
+"    科目类型\\会计科目表模板\\增值税\\辅助核算类别\\管理会计凭证簿\\财务会计凭证簿\n"
+"\n"
+"    添加中文省份数据\n"
+"\n"
+"    增加小企业会计科目表\n"
+"\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_at_reports
+msgid ""
+"\n"
+"\n"
+"Accounting reports for Austria.\n"
+"================================\n"
+"\n"
+"    * Defines the following reports:\n"
+"        * Profit/Loss (§ 231 UGB Gesamtkostenverfahren)\n"
+"        * Balance Sheet (§ 224 UGB)\n"
+"\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_be_invoice_bba
+msgid ""
+"\n"
+"\n"
+"Add Structured Communication to customer invoices.\n"
+"--------------------------------------------------\n"
+"\n"
+"Using BBA structured communication simplifies the reconciliation between invoices and payments.\n"
+"You can select the structured communication as payment communication in Invoicing/Accounting settings.\n"
+"Two algorithms are suggested:\n"
+"\n"
+"    1) Invoice Number +++RRR/RRRR/RRRDD+++\n"
+"        **R..R =** Invoice Number, **DD =** Check Digits\n"
+"    2) Customer Reference +++RRR/RRRR/SSSDD+++\n"
+"        **R..R =** Customer Reference without non-numeric characters, **SSS =** Sequence Number, **DD =** Check Digits\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_pos_reprint
+msgid ""
+"\n"
+"\n"
+"Allow cashier to reprint receipts\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"Cho phép thu ngân in lại hóa đơn\n"
+"\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_hu
+msgid ""
+"\n"
+"\n"
+"Base module for Hungarian localization\n"
+"==========================================\n"
+"\n"
+"This module consists of:\n"
+"\n"
+" - Generic Hungarian chart of accounts\n"
+" - Hungarian taxes\n"
+" - Hungarian Bank information\n"
+" "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_do
+msgid ""
+"\n"
+"\n"
+"Localization Module for Dominican Republic\n"
+"===========================================\n"
+"\n"
+"Catálogo de Cuentas e Impuestos para República Dominicana, Compatible para\n"
+"**Internacionalización** con **NIIF** y alineado a las normas y regulaciones\n"
+"de la Dirección General de Impuestos Internos (**DGII**).\n"
+"\n"
+"**Este módulo consiste de:**\n"
+"\n"
+"- Catálogo de Cuentas Estándar (alineado a DGII y NIIF)\n"
+"- Catálogo de Impuestos con la mayoría de Impuestos Preconfigurados\n"
+"        - ITBIS para compras y ventas\n"
+"        - Retenciones de ITBIS\n"
+"        - Retenciones de ISR\n"
+"        - Grupos de Impuestos y Retenciones:\n"
+"                - Telecomunicaiones\n"
+"                - Proveedores de Materiales de Construcción\n"
+"                - Personas Físicas Proveedoras de Servicios\n"
+"        - Otros impuestos\n"
+"- Secuencias Preconfiguradas para manejo de todos los NCF\n"
+"        - Facturas con Valor Fiscal (para Ventas)\n"
+"        - Facturas para Consumidores Finales\n"
+"        - Notas de Débito y Crédito\n"
+"        - Registro de Proveedores Informales\n"
+"        - Registro de Ingreso Único\n"
+"        - Registro de Gastos Menores\n"
+"        - Gubernamentales\n"
+"- Posiciones Fiscales para automatización de impuestos y retenciones\n"
+"        - Cambios de Impuestos a Exenciones (Ej. Ventas al Estado)\n"
+"        - Cambios de Impuestos a Retenciones (Ej. Compra Servicios al Exterior)\n"
+"        - Entre otros\n"
+"\n"
+"**Nota:**\n"
+"Esta localización, aunque posee las secuencias para NCF, las mismas no pueden\n"
+"ser utilizadas sin la instalación de módulos de terceros o desarrollo\n"
+"adicional.\n"
+"\n"
+"Estructura de Codificación del Catálogo de Cuentas:\n"
+"===================================================\n"
+"\n"
+"**Un dígito** representa la categoría/tipo de cuenta del del estado financiero.\n"
+"**1** - Activo        **4** - Cuentas de Ingresos y Ganancias\n"
+"**2** - Pasivo        **5** - Costos, Gastos y Pérdidas\n"
+"**3** - Capital       **6** - Cuentas Liquidadoras de Resultados\n"
+"\n"
+"**Dos dígitos** representan los rubros de agrupación:\n"
+"11- Activo Corriente\n"
+"21- Pasivo Corriente\n"
+"31- Capital Contable\n"
+"\n"
+"**Cuatro dígitos** se asignan a las cuentas de mayor: cuentas de primer orden\n"
+"1101- Efectivo y Equivalentes de Efectivo\n"
+"2101- Cuentas y Documentos por pagar\n"
+"3101- Capital Social\n"
+"\n"
+"**Seis dígitos** se asignan a las sub-cuentas: cuentas de segundo orden\n"
+"110101 - Caja\n"
+"210101 - Proveedores locales\n"
+"\n"
+"**Ocho dígitos** son para las cuentas de tercer orden (las visualizadas\n"
+"en Odoo):\n"
+"1101- Efectivo y Equivalentes\n"
+"110101- Caja\n"
+"11010101 Caja General\n"
+"    "
+msgstr ""
+"\n"
+"\n"
+"Localization Module for Dominican Republic\n"
+"===========================================\n"
+"\n"
+"Catálogo de Cuentas e Impuestos para República Dominicana, Compatible para\n"
+"**Internacionalización** con **NIIF** y alineado a las normas y regulaciones\n"
+"de la Dirección General de Impuestos Internos (**DGII**).\n"
+"\n"
+"**Este módulo consiste de:**\n"
+"\n"
+"- Catálogo de Cuentas Estándar (alineado a DGII y NIIF)\n"
+"- Catálogo de Impuestos con la mayoría de Impuestos Preconfigurados\n"
+"        - ITBIS para compras y ventas\n"
+"        - Retenciones de ITBIS\n"
+"        - Retenciones de ISR\n"
+"        - Grupos de Impuestos y Retenciones:\n"
+"                - Telecomunicaiones\n"
+"                - Proveedores de Materiales de Construcción\n"
+"                - Personas Físicas Proveedoras de Servicios\n"
+"        - Otros impuestos\n"
+"- Secuencias Preconfiguradas para manejo de todos los NCF\n"
+"        - Facturas con Valor Fiscal (para Ventas)\n"
+"        - Facturas para Consumidores Finales\n"
+"        - Notas de Débito y Crédito\n"
+"        - Registro de Proveedores Informales\n"
+"        - Registro de Ingreso Único\n"
+"        - Registro de Gastos Menores\n"
+"        - Gubernamentales\n"
+"- Posiciones Fiscales para automatización de impuestos y retenciones\n"
+"        - Cambios de Impuestos a Exenciones (Ej. Ventas al Estado)\n"
+"        - Cambios de Impuestos a Retenciones (Ej. Compra Servicios al Exterior)\n"
+"        - Entre otros\n"
+"\n"
+"**Nota:**\n"
+"Esta localización, aunque posee las secuencias para NCF, las mismas no pueden\n"
+"ser utilizadas sin la instalación de módulos de terceros o desarrollo\n"
+"adicional.\n"
+"\n"
+"Estructura de Codificación del Catálogo de Cuentas:\n"
+"===================================================\n"
+"\n"
+"**Un dígito** representa la categoría/tipo de cuenta del del estado financiero.\n"
+"**1** - Activo        **4** - Cuentas de Ingresos y Ganancias\n"
+"**2** - Pasivo        **5** - Costos, Gastos y Pérdidas\n"
+"**3** - Capital       **6** - Cuentas Liquidadoras de Resultados\n"
+"\n"
+"**Dos dígitos** representan los rubros de agrupación:\n"
+"11- Activo Corriente\n"
+"21- Pasivo Corriente\n"
+"31- Capital Contable\n"
+"\n"
+"**Cuatro dígitos** se asignan a las cuentas de mayor: cuentas de primer orden\n"
+"1101- Efectivo y Equivalentes de Efectivo\n"
+"2101- Cuentas y Documentos por pagar\n"
+"3101- Capital Social\n"
+"\n"
+"**Seis dígitos** se asignan a las sub-cuentas: cuentas de segundo orden\n"
+"110101 - Caja\n"
+"210101 - Proveedores locales\n"
+"\n"
+"**Ocho dígitos** son para las cuentas de tercer orden (las visualizadas\n"
+"en Odoo):\n"
+"1101- Efectivo y Equivalentes\n"
+"110101- Caja\n"
+"11010101 Caja General\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_jp
+msgid ""
+"\n"
+"\n"
+"Overview:\n"
+"---------\n"
+"\n"
+"* Chart of Accounts and Taxes template for companies in Japan.\n"
+"* This probably does not cover all the necessary accounts for a company. You are expected to add/delete/modify accounts based on this template.\n"
+"\n"
+"Note:\n"
+"-----\n"
+"\n"
+"* Fiscal positions '内税' and '外税' have been added to handle special requirements which might arise from POS implementation. [1]  Under normal circumstances, you might not need to use those at all.\n"
+"\n"
+"[1] See https://github.com/odoo/odoo/pull/6470 for detail.\n"
+"\n"
+"    "
+msgstr ""
+
+#. module: base
+#: code:addons/base/models/res_config.py:0
+#, python-format
+msgid ""
+"\n"
+"\n"
+"This addon is already installed on your system"
+msgstr ""
+"\n"
+"\n"
+"Phân hệ này đã được cài lên hệ thống"
+
+#. module: base
+#: model:ir.module.module,description:base.module_pos_sale
+msgid ""
+"\n"
+"\n"
+"This module adds a custom Sales Team for the Point of Sale. This enables you to view and manage your point of sale sales with more ease.\n"
+msgstr ""
+"\n"
+"\n"
+"Module này thêm một tuỳ chỉnh Đội bán hàng vào Điểm bán hàng. Điều này cho phép bạn xem và quản lý điểm bán hàng một cách dễ dàng hơn.\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_pos_restaurant
+msgid ""
+"\n"
+"\n"
+"This module adds several features to the Point of Sale that are specific to restaurant management:\n"
+"- Bill Printing: Allows you to print a receipt before the order is paid\n"
+"- Bill Splitting: Allows you to split an order into different orders\n"
+"- Kitchen Order Printing: allows you to print orders updates to kitchen or bar printers\n"
+"\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_pos_discount
+msgid ""
+"\n"
+"\n"
+"This module allows the cashier to quickly give percentage-based\n"
+"discount to a customer.\n"
+"\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_pos_loyalty
+msgid ""
+"\n"
+"\n"
+"This module allows you to define a loyalty program in\n"
+"the point of sale, where customers earn loyalty points\n"
+"and get rewards.\n"
+"\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_pos_epson_printer_restaurant
+msgid ""
+"\n"
+"\n"
+"Use Epson Printers as Order Printers in the Point of Sale without the IoT Box\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_pos_epson_printer
+msgid ""
+"\n"
+"\n"
+"Use Epson ePOS Printers without the IoT Box in the Point of Sale\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_at
+msgid ""
+"\n"
+"   \n"
+"Austrian charts of accounts (Einheitskontenrahmen 2010).\n"
+"==========================================================\n"
+"\n"
+"    * Defines the following chart of account templates:\n"
+"        * Austrian General Chart of accounts 2010\n"
+"    * Defines templates for VAT on sales and purchases\n"
+"    * Defines tax templates\n"
+"    * Defines fiscal positions for Austrian fiscal legislation\n"
+"    * Defines tax reports U1/U30\n"
+" \n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_sale_renting_sign
+msgid ""
+"\n"
+"            Bridge Sign functionalities with the Rental application\n"
+"        "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_helpdesk_timesheet
+msgid ""
+"\n"
+"        - Allow to set project for Helpdesk team\n"
+"        - Track timesheet for a task from a ticket\n"
+"    "
+msgstr ""
+"\n"
+"        - Cho phép đặt dự án cho đội Helpdesk\n"
+"        - Theo dõi thời gian làm việc của một tác vụ từ một ticket\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_be_reports
+msgid ""
+"\n"
+"        Accounting reports for Belgium\n"
+"    "
+msgstr ""
+"\n"
+"        Báo cáo kế toán cho Belgium\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_cl_reports
+msgid ""
+"\n"
+"        Accounting reports for Chile\n"
+"    "
+msgstr ""
+"\n"
+"        Báo cáo kế toán cho Chile\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_de_reports
+msgid ""
+"\n"
+"        Accounting reports for Germany\n"
+"        Contains Balance sheet, Profit and Loss, VAT and Partner VAT reports\n"
+"        Also adds DATEV export options to general ledger\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_nl_reports
+msgid ""
+"\n"
+"        Accounting reports for Netherlands\n"
+"    "
+msgstr ""
+"\n"
+"        Báo cáo kế toán cho Netherlands\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_es_reports
+msgid ""
+"\n"
+"        Accounting reports for Spain\n"
+"    "
+msgstr ""
+"\n"
+"        Báo cáo kế toán cho Spain\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_ch_reports
+msgid ""
+"\n"
+"        Accounting reports for Switzerland\n"
+"    "
+msgstr ""
+"\n"
+"        Báo cáo kế toán cho Switzerland\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_uk_reports
+msgid ""
+"\n"
+"        Accounting reports for UK\n"
+"        \n"
+"        Allows to send the tax report via the \n"
+"        MTD-VAT API to HMRC.   \n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_us_reports
+msgid ""
+"\n"
+"        Accounting reports for US\n"
+"    "
+msgstr ""
+"\n"
+"        Báo cáo kế toán cho US\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,summary:base.module_l10n_mx_reports_closing
+msgid ""
+"\n"
+"        Allow to generate the trial balance for the closing entry.\n"
+"\n"
+"        Colloquially known as \"Month 13\"\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_documents
+msgid ""
+"\n"
+"        App to upload and manage your documents.\n"
+"    "
+msgstr ""
+"\n"
+"        Ứng dụng để tải lên và quản lý tài liệu của bạn.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_helpdesk_sale_timesheet
+msgid ""
+"\n"
+"        Bill timesheets logged on helpdesk tickets.\n"
+"    "
+msgstr ""
+"\n"
+"        Tính phí thời gian biểu được ghi nhận cho phần hỗ trợ.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_maintenance
+msgid ""
+"\n"
+"        Bridge between HR and Maintenance."
+msgstr ""
+"\n"
+"        Liên kết giữa Nhân sự và Bảo trì."
+
+#. module: base
+#: model:ir.module.module,description:base.module_sale_intrastat
+msgid ""
+"\n"
+"        Bridge module between sale and intrastat.\n"
+"    "
+msgstr ""
+"\n"
+"        Mô-đun cầu nối giữa bán hàng và intrastat.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,summary:base.module_website_sale_product_configurator
+msgid ""
+"\n"
+"        Bridge module for website_sale / sale_product_configurator"
+msgstr ""
+"\n"
+"        Module cầu nối cho website_sale / sale_product_configurator"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_website_sale_stock_product_configurator
+msgid ""
+"\n"
+"        Bridge module for website_sale_stock / sale_product_configurator"
+msgstr ""
+"\n"
+"        Module cầu nối cho website_sale_stock / sale_product_configurator"
+
+#. module: base
+#: model:ir.module.module,description:base.module_website_sale_product_configurator
+msgid ""
+"\n"
+"        Bridge module to make the website e-commerce compatible with the product configurator\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_website_sale_stock_product_configurator
+msgid ""
+"\n"
+"        Bridge module to make the website e-commerce stock management compatible with the product configurator\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_helpdesk_fsm
+msgid ""
+"\n"
+"        Convert helpdesk tickets to field service tasks.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_website_form
+msgid ""
+"\n"
+"        Customize and create your own web forms.\n"
+"        This module adds a new building block in the website builder in order to build new forms from scratch in any website page.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_l10n_in_purchase_stock
+msgid ""
+"\n"
+"        Define default purchase journal on the warehouse"
+msgstr ""
+"\n"
+"        Chỉ định nhật ký mua hàng mặc định cho kho hàng"
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_in_purchase_stock
+msgid ""
+"\n"
+"        Define default purchase journal on the warehouse,\n"
+"        help you to choose correct purchase journal on the purchase order when\n"
+"        you change the picking operation.\n"
+"        useful when you setup the multiple GSTIN units.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_l10n_in_sale_stock
+msgid ""
+"\n"
+"        Define default sales journal on the warehouse"
+msgstr ""
+"\n"
+"Chỉ định nhật ký bán hàng mặc định cho Kho hàng"
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_in_sale_stock
+msgid ""
+"\n"
+"        Define default sales journal on the warehouse,\n"
+"        help you to choose correct sales journal on the sales order when\n"
+"        you change the warehouse.\n"
+"        useful when you setup the multiple GSTIN units.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_l10n_mx_reports
+msgid ""
+"\n"
+"        Electronic accounting reports\n"
+"            - COA\n"
+"            - Trial Balance\n"
+"        DIOT Report\n"
+"    "
+msgstr ""
+"\n"
+"        Báo cáo kế toán điện tử\n"
+"            - COA\n"
+"            - Trial Balance\n"
+"        DIOT Report\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_account_sepa
+msgid ""
+"\n"
+"        Generate payment orders as recommended by the SEPA norm, thanks to pain.001 messages. Supported pain version (countries) are pain.001.001.03 (generic), pain.001.001.03.ch.02 (Switzerland) and pain.001.003.03 (Germany). The generated XML file can then be uploaded to your bank.\n"
+"\n"
+"        This module follow the implementation guidelines issued by the European Payment Council.\n"
+"        For more informations about the SEPA standards : http://www.iso20022.org/ and http://www.europeanpaymentscouncil.eu/\n"
+"    "
+msgstr ""
+"\n"
+"        Generate payment orders as recommended by the SEPA norm, thanks to pain.001 messages. Supported pain version (countries) are pain.001.001.03 (generic), pain.001.001.03.ch.02 (Switzerland) and pain.001.003.03 (Germany). The generated XML file can then be uploaded to your bank.\n"
+"\n"
+"        This module follow the implementation guidelines issued by the European Payment Council.\n"
+"        For more informations about the SEPA standards : http://www.iso20022.org/ and http://www.europeanpaymentscouncil.eu/\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_account_winbooks_import
+msgid ""
+"\n"
+"        Import Data From Winbooks\n"
+"    "
+msgstr ""
+"\n"
+"        Nhập dữ liệu từ Winbooks\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,summary:base.module_voip
+msgid ""
+"\n"
+"        Make calls using a VOIP system"
+msgstr ""
+"\n"
+"        Thực hiện cuộc gọi bằng hệ thống VOIP"
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_expense_check
+msgid ""
+"\n"
+"        Print amount in words on checks issued for expenses\n"
+"    "
+msgstr ""
+"\n"
+"        Print amount in words on checks issued for expenses\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_sale_renting
+msgid ""
+"\n"
+"        Specify rentals of products (products, quotations, invoices, ...)\n"
+"        Manage status of products, rentals, delays\n"
+"        Manage user and manager notifications\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_base_sparse_field
+msgid ""
+"\n"
+"        The purpose of this module is to implement \"sparse\" fields, i.e., fields\n"
+"        that are mostly null. This implementation circumvents the PostgreSQL\n"
+"        limitation on the number of columns in a table. The values of all sparse\n"
+"        fields are stored in a \"serialized\" field in the form of a JSON mapping.\n"
+"    "
+msgstr ""
+"\n"
+"Mục đích của mô-đun này là thực hiện các trường \"thưa thớt\", tức là các trường\n"
+"        chủ yếu là NULL. Việc thực hiện này phá vỡ PostgreSQL\n"
+"        hạn chế về số lượng cột trong một bảng. Các giá trị của tất cả thưa thớt\n"
+"        trường được lưu trữ trong trường \"đăng\" dưới dạng bản đồ JSON.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_mrp_subcontracting_dropshipping
+msgid ""
+"\n"
+"        This bridge module allows to manage subcontracting with the dropshipping module.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_mrp_subcontracting_account
+msgid ""
+"\n"
+"        This bridge module allows to manage subcontracting with valuation.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_stock_barcode_quality_control
+msgid ""
+"\n"
+"        This bridge module is auto-installed when the modules stock_barcode and quality_control are installed.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_im_support
+msgid ""
+"\n"
+"        This module allows employee users to communicate with livechat operators\n"
+"        of another database on which a counterpart addon is installed.\n"
+"    "
+msgstr ""
+"\n"
+"        Mô-đun này cho phép người dùng nhân viên giao tiếp với các nhà khai thác livechat\n"
+"        của một cơ sở dữ liệu khác trên đó một addon đối tác được cài đặt.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_purchase_product_matrix
+msgid ""
+"\n"
+"        This module allows to fill Purchase Orders rapidly\n"
+"        by choosing product variants quantity through a Grid Entry.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_sale_product_matrix
+msgid ""
+"\n"
+"        This module allows to fill Sales Order rapidly\n"
+"        by choosing product variants quantity through a Grid Entry.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_account_ponto
+msgid ""
+"\n"
+"        This module connects to my myponto.com to retrieve bank statements.\n"
+"\n"
+"        Currently, that service allows to connect to belgian banks only\n"
+"        (BNP Paribas Fortis, KBC, CBC, KBC Brussels, Fintro, Hello Bank, ING Belgium, AXA Belgium)\n"
+"        but aims to connect with all European banks later on\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_account_sepa_direct_debit
+msgid ""
+"\n"
+"        This module enables the generation of SEPA Direct Debit (SDD)-compliant XML files (consistent\n"
+"        with pain.008.001.02 specification) to send to your bank in order to\n"
+"        collect a set of payments.\n"
+"\n"
+"        To be elligible for this payment method, a customer must have first\n"
+"        returned a mandate to the company, giving his consent to use direct debit.\n"
+"        This consent must have been encoded as a 'customer mandate' into Odoo.\n"
+"\n"
+"        You also need to meet the following requirements in order to properly\n"
+"        generate a SDD file:\n"
+"        - Your company account must be set to a valid IBAN number\n"
+"        - Your company account must be associated to a bank having a valid BIC\n"
+"        - Your company must have been given a creditor identifier (this can be done in the 'settings' menu of the accounting module)\n"
+"        - Your company must have defined a journal to receive SDD payments (again, in 'settings' of accounting module)\n"
+"        - Every customer for which you generate a payment must have a valid IBAN account number in a bank associated with a correct BIC.\n"
+"\n"
+"        Odoo will let you know if any of these requirements are not satisfied.\n"
+"\n"
+"        Any invoice that gets validated for a customer with a mandate will be\n"
+"        automatically set in 'paid' state, and a payment will be generated. An\n"
+"        option in the dashboard will then allow you to view all the payments generated\n"
+"        via SDD and to generate a XML collection file for them, grouping them as\n"
+"        you see fit.\n"
+"\n"
+"        A dedicated 'SEPA Direct Debit' payment method is also available for\n"
+"        open invoices, when selecting a bank account in the 'register payment' wizard.\n"
+"        Use it to generate a SDD payment for the invoices if you added a mandate\n"
+"        for its owner after its validation. You will see an error message if you\n"
+"        try to use this method on an invoice for whose payment no mandate can be used.\n"
+"    "
+msgstr ""
+"\n"
+"Mô-đun này cho phép tạo các tệp XML công cụ SEPA Direct Debit (SDD) (nhất quán\n"
+"        với đặc tả đau.008.001.02) để gửi đến ngân hàng của bạn để\n"
+"        thu thập một bộ thanh toán.\n"
+"\n"
+"        Để có thể hiểu được phương thức thanh toán này, trước tiên khách hàng phải có\n"
+"        trả lại một nhiệm vụ cho công ty, đồng ý sử dụng ghi nợ trực tiếp.\n"
+"       Sự đồng ý này phải được mã hóa dưới dạng 'nhiệm vụ khách hàng' thành Odoo.\n"
+"\n"
+"        Bạn cũng cần phải đáp ứng các yêu cầu sau đây để đúng\n"
+"        tạo tệp SDD:\n"
+"        - Tài khoản công ty của bạn phải được đặt thành số IBAN hợp lệ\n"
+"        - Tài khoản công ty của bạn phải được liên kết với ngân hàng có BIC hợp lệ\n"
+"        - Công ty của bạn phải được cấp một mã định danh chủ nợ (điều này có thể được thực hiện trong menu 'cài đặt' của mô-đun kế toán)\n"
+"        - Công ty của bạn phải xác định một tạp chí để nhận thanh toán SDD (một lần nữa, trong 'cài đặt' của mô-đun kế toán)\n"
+"        - Mỗi khách hàng mà bạn tạo thanh toán phải có số tài khoản IBAN hợp lệ trong ngân hàng được liên kết với BIC chính xác.\n"
+"\n"
+"        Odoo sẽ cho bạn biết nếu bất kỳ yêu cầu nào trong số này không được thỏa mãn.\n"
+"\n"
+"        Bất kỳ hóa đơn nào được xác thực cho một khách hàng có nhiệm vụ sẽ được\n"
+"        tự động được đặt ở trạng thái 'đã thanh toán' và thanh toán sẽ được tạo. An\n"
+"        tùy chọn trong bảng điều khiển sau đó sẽ cho phép bạn xem tất cả các khoản thanh toán được tạo\n"
+"        thông qua SDD và để tạo tệp bộ sưu tập XML cho họ, nhóm chúng thành\n"
+"        bạn thấy phù hợp\n"
+"\n"
+"        Phương thức thanh toán 'Ghi nợ trực tiếp SEPA' chuyên dụng cũng có sẵn cho\n"
+"        mở hóa đơn, khi chọn tài khoản ngân hàng trong thuật sĩ 'đăng ký thanh toán'.\n"
+"        Sử dụng nó để tạo thanh toán SDD cho hóa đơn nếu bạn đã thêm một ủy quyền\n"
+"        cho chủ sở hữu của nó sau khi xác nhận của nó. Bạn sẽ thấy một thông báo lỗi nếu bạn\n"
+"        hãy thử sử dụng phương thức này trên một hóa đơn mà thanh toán không được ủy quyền có thể được sử dụng."
+
+#. module: base
+#: model:ir.module.module,summary:base.module_account_online_sync
+msgid ""
+"\n"
+"        This module is used for Online bank synchronization."
+msgstr ""
+"\n"
+"        Mô-đun này được sử dụng để đồng bộ hóa ngân hàng trực tuyến."
+
+#. module: base
+#: model:ir.module.module,description:base.module_account_online_sync
+msgid ""
+"\n"
+"        This module is used for Online bank synchronization. It provides basic methods to synchronize bank statement.\n"
+"    "
+msgstr ""
+"\n"
+"        This module is used for Online bank synchronization. It provides basic methods to synchronize bank statement.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_web_mobile
+msgid ""
+"\n"
+"        This module provides the core of the Odoo Mobile App.\n"
+"        "
+msgstr ""
+"\n"
+"       Mô-đun này cung cấp cốt lõi của Ứng dụng di động của Hệ thống.\n"
+"        "
+
+#. module: base
+#: model:ir.module.module,description:base.module_maintenance
+msgid ""
+"\n"
+"        Track equipments and maintenance requests"
+msgstr ""
+"\n"
+"        theo dõi thiết bị và yêu cầu bảo trì"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_account_plaid
+msgid ""
+"\n"
+"        Use Plaid.com to retrieve bank statements"
+msgstr ""
+"\n"
+"        Use Plaid.com to retrieve bank statements"
+
+#. module: base
+#: model:ir.module.module,description:base.module_account_plaid
+msgid ""
+"\n"
+"        Use Plaid.com to retrieve bank statements.\n"
+"    "
+msgstr ""
+"\n"
+"        Use Plaid.com to retrieve bank statements.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_recruitment_survey
+msgid ""
+"\n"
+"        Use interview forms during recruitment process.\n"
+"        This module is integrated with the survey module\n"
+"        to allow you to define interviews for different jobs.\n"
+"    "
+msgstr ""
+"\n"
+"        Dùng mẫu phỏng vấn trong quy trình phỏng vấn.\n"
+"        This module is integrated with the survey module\n"
+"        to allow you to define interviews for different jobs.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,summary:base.module_account_ponto
+msgid ""
+"\n"
+"        Use myponto.com to retrieve bank statements"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_sale_timesheet_enterprise
+msgid ""
+"\n"
+"        When invoicing timesheets, allows invoicing either all timesheets\n"
+"        linked to an SO, or only the validated timesheets\n"
+"    "
+msgstr ""
+"\n"
+"        When invoicing timesheets, allows invoicing either all timesheets\n"
+"        linked to an SO, or only the validated timesheets\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,summary:base.module_purchase_product_matrix
+msgid ""
+"\n"
+"       Add variants to your purchase orders through an Order Grid Entry.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_partner_autocomplete
+msgid ""
+"\n"
+"       Auto-complete partner companies' data\n"
+"    "
+msgstr ""
+"\n"
+"        Tự động hoàn thành dữ liệu của các công ty đối tác\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,summary:base.module_product_matrix
+msgid ""
+"\n"
+"       Technical module: Matrix Implementation\n"
+"    "
+msgstr ""
+"\n"
+"       Module kỹ thuật: Matrix Implementation\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_multilang
+msgid ""
+"\n"
+"    * Multi language support for Chart of Accounts, Taxes, Tax Codes, Journals,\n"
+"      Accounting Templates, Analytic Chart of Accounts and Analytic Journals.\n"
+"    * Setup wizard changes\n"
+"        - Copy translations for COA, Tax, Tax Code and Fiscal Position from\n"
+"          templates to target objects.\n"
+"    "
+msgstr ""
+"\n"
+"    * Đa ngôn ngữ dành cho Hệ thống tài khoản, Thuế, Sổ nhật ký, Hệ thống tài khoản quản trị và Sổ nhật ký quản trị.\n"
+"    * Tiến trình cài đặt sẽ thực hiện\n"
+"        - Sao chép bản dịch cho Hệ thống tài khoản, Thuế, Vị trí tài chính từ các bản mẫu tới các đối tượng được chỉ định.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_quality_mrp_workorder_iot
+msgid ""
+"\n"
+"    Adds Quality Control to workorders with IoT.\n"
+msgstr ""
+"\n"
+"Thêm Kiểm soát chất lượng vào Lệnh sản xuất với thiết bị IoT.\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_quality_mrp_workorder
+msgid ""
+"\n"
+"    Adds Quality Control to workorders.\n"
+msgstr ""
+"\n"
+"    Thêm Kiểm soát chất lượng vào một hoạt động sản xuất\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_quality_mrp
+msgid ""
+"\n"
+"    Adds workcenters to Quality Control\n"
+msgstr ""
+"\n"
+"    Thêm một hoạt động sản xuất đến Kiểm soát chất lượng\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_mrp_workorder_iot
+msgid ""
+"\n"
+"    Configure IoT devices to be used in certain \n"
+"    steps for taking measures, taking pictures, ...\n"
+msgstr ""
+"\n"
+"    Đồng nhất cầu hình thiết bị IoT để sử dụng \n"
+"    các bước đo kiểm, chụp hình, ...\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_test_documentation_examples
+msgid ""
+"\n"
+"    Contains pieces of code to be used as technical documentation examples\n"
+"    (via the ``literalinclude`` directive) in situations where they can be\n"
+"    syntax-checked and tested.\n"
+"    "
+msgstr ""
+"\n"
+"    Contains pieces of code to be used as technical documentation examples\n"
+"    (via the ``literalinclude`` directive) in situations where they can be\n"
+"    syntax-checked and tested.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_holidays_gantt
+msgid ""
+"\n"
+"    Gantt view for Time Off Dashboard\n"
+"    "
+msgstr ""
+"\n"
+"Chế độ Gantt cho Bảng thông tin Nghỉ phép"
+
+#. module: base
+#: model:ir.module.module,description:base.module_account_lock
+msgid ""
+"\n"
+"    Make the lock date irreversible:\n"
+"\n"
+"    * You cannot define stricter conditions on advisors than on users. Then, the lock date on advisor must be set before the lock date for users.\n"
+"    * You cannot lock a period that is not finished yet. Then, the lock date for advisors must be set before the last day of the previous month.\n"
+"    * The new lock date for advisors must be set after the previous lock date.\n"
+"    "
+msgstr ""
+"\n"
+"      Làm cho ngày khóa không thể đảo ngược:\n"
+"\n"
+"      * Bạn không thể xác định các điều kiện chặt chẽ hơn trên các cố vấn so với người dùng. Sau đó, ngày khóa trên trình tư vấn phải được đặt trước ngày khóa cho người dùng.\n"
+"     * Bạn không thể khóa một khoảng thời gian chưa kết thúc. Sau đó, ngày khóa cho cố vấn phải được đặt trước ngày cuối cùng của tháng trước.\n"
+"     * Ngày khóa mới cho cố vấn phải được đặt sau ngày khóa trước."
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_timesheet_attendance
+msgid ""
+"\n"
+"    Module linking the attendance module to the timesheet app.\n"
+"    "
+msgstr ""
+"\n"
+"    Module linking the attendance module to the timesheet app.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_payment_payumoney
+msgid ""
+"\n"
+"    PayuMoney Payment Acquirer for India.\n"
+"\n"
+"    PayUmoney payment gateway supports only INR currency.\n"
+"    "
+msgstr ""
+"\n"
+"    PayuMoney Payment Acquirer for India.\n"
+"\n"
+"    PayUmoney payment gateway supports only INR currency.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_project_forecast
+msgid ""
+"\n"
+"    Schedule your teams across projects and estimate deadlines more accurately.\n"
+"    "
+msgstr ""
+"\n"
+"    Lên lịch cho nhóm của bạn theo các dự án để ước tính thời hạn một cách chính xác.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_planning
+msgid ""
+"\n"
+"    Schedule your teams and employees with shift.\n"
+"    "
+msgstr ""
+"\n"
+"    Lập kế hoạch cho đội của bạn và các nhân viên với Ca làm việc.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_ie
+msgid ""
+"\n"
+"    This module is for all the Irish SMEs who would like to setup their accounting quickly. The module provides:\n"
+"\n"
+"    - a Chart of Accounts customised to Ireland\n"
+"    - VAT Rates and Structure"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_sale_ebay
+msgid ""
+"\n"
+"  Publish your products on eBay"
+msgstr ""
+"\n"
+"  Xuất sản phẩm lên eBay"
+
+#. module: base
+#: model:ir.module.module,description:base.module_timesheet_grid
+msgid ""
+"\n"
+"* Timesheet submission and validation\n"
+"* Activate grid view for timesheets\n"
+"    "
+msgstr ""
+"\n"
+"* Đăng ký và xác nhận bảng chấm công\n"
+"* Kích hoạt chế độ xem lưới cho bảng chấm công"
+
+#. module: base
+#: model:ir.module.module,description:base.module_stock_intrastat
+msgid ""
+"\n"
+"A module that add the stock management in intrastat reports.\n"
+"============================================================\n"
+"\n"
+"This module gives the details of the goods traded between the countries of\n"
+"European Union."
+msgstr ""
+"\n"
+"A module that add the stock management in intrastat reports.\n"
+"============================================================\n"
+"\n"
+"This module gives the details of the goods traded between the countries of\n"
+"European Union."
+
+#. module: base
+#: model:ir.module.module,description:base.module_account_tax_python
+msgid ""
+"\n"
+"A tax defined as python code consists of two snippets of python code which are executed in a local environment containing data such as the unit price, product or partner.\n"
+"\n"
+"\"Applicable Code\" defines if the tax is to be applied.\n"
+"\n"
+"\"Python Code\" defines the amount of the tax.\n"
+"        "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_au_aba
+msgid ""
+"\n"
+"ABA Credit Transfer\n"
+"===================\n"
+"\n"
+"This module allows the generation of payment batches as ABA (Australian\n"
+"Bankers Association) text files.  The generated 'aba' file can be uploaded\n"
+"to many Australian banks.\n"
+"\n"
+"Setup\n"
+"-----\n"
+"\n"
+"- *Configuration > Journals*\n"
+"\n"
+"    If needed, create new journal or choose an existing journal with **Type**\n"
+"    set to *“Bank”*.\n"
+"\n"
+"    On **Advanced Settings**, ensure ABA Credit Transfer is ticked.\n"
+"\n"
+"    On the **Bank Account** tab, enter the **Account Number**.\n"
+"\n"
+"- *Configuration > Bank Accounts*\n"
+"\n"
+"    Account will show up in list as the journal name.\n"
+"\n"
+"    Editing will show the **Account Number**.  This is important as it is used by\n"
+"    the ABA process.\n"
+"\n"
+"    **Bank** is optional.\n"
+"\n"
+"- *Sales > Configuration > Bank Accounts > Bank Accounts*\n"
+"\n"
+"    Account will show up in list as the account number.\n"
+"\n"
+"    **ABA Payments** - Set to *“Account for Making ABA Payments”*.\n"
+"\n"
+"    **BSB** - Required, 6 digits, and will be auto formatted.\n"
+"\n"
+"    **Account Holder** - Optional.\n"
+"\n"
+"    **Account / Payee Name** - Required.  Generally not validated by the banks\n"
+"    on ABA file transfers, and may show up on the payee bank statement against\n"
+"    the payment.\n"
+"\n"
+"    **Financial Institution Code** - Required (provided by bank or can be found\n"
+"    on Google).  It is three uppercase 3 characters.\n"
+"\n"
+"    **Supplying User Name** - Some banks allow this to be freeform, some banks\n"
+"    may reject the ABA file if the Supplying User Name is not as expected.  It\n"
+"    cannot be longer than 26 characters.\n"
+"\n"
+"    **Identification Number (APCA)** - User Identification number is bank\n"
+"    allocated.  It is 6 digits.\n"
+"\n"
+"    **Include Self Balancing Transaction** - Some institutions require that the\n"
+"    last be a self balancing transaction which is used as a verification.\n"
+"\n"
+"- Vendor bank accounts can be set up in the same place, however, it is\n"
+"  generally easier to set them up from the partner from for the Vendor.\n"
+"\n"
+"- *Accounting > Purchases > Vendors*\n"
+"\n"
+"    On **Sales & Purchases** tab, click on *\"Bank account(s)\"* from where a\n"
+"    vendor bank account can be created or edited.\n"
+"\n"
+"    **Account Number** - Required.\n"
+"\n"
+"    **ABA Payments** - Set to *“Allow ABA Payments to this Account”*.\n"
+"\n"
+"    **BSB** - Required, 6 digits, and will be auto formatted.\n"
+"\n"
+"    **Account Holder** - Optional.\n"
+"\n"
+"    **Account / Payee Name** - Required.  Generally not validated by the\n"
+"    banks.\n"
+"\n"
+"Use\n"
+"---\n"
+"\n"
+"- Create a vendor payment in the normal way.\n"
+"\n"
+"    Ensure the **Vendor** is one with a valid ABA payment account.\n"
+"\n"
+"    Choose the correct **Payment Journal** which is set for ABA payments.\n"
+"\n"
+"    Select **ABA Credit Transfer** radio button.\n"
+"\n"
+"    If the vendor has multiple bank account, you may need to select the\n"
+"    correct **Recipient Bank Account**.\n"
+"\n"
+"    Enter payment amount, etc.\n"
+"\n"
+"- *Purchases > Payments*\n"
+"\n"
+"    After payment(s) are confirmed, they will show up in the payments list.\n"
+"\n"
+"    Using filters, or sorting, select the payments to be included.  Under\n"
+"    *Actions* choose *Download ABA Payment*.  A pop up appears with the ABA\n"
+"    file from which you can click on the file to download locally.  This\n"
+"    file can then be uploaded to the bank.\n"
+msgstr ""
+"\n"
+"Chuyển khoản tín dụng ABA\n"
+"===================\n"
+"\n"
+"Mô-đun này cho phép tạo các đợt thanh toán dưới dạng ABA (Úc\n"
+"Hiệp hội Ngân hàng) tập tin văn bản. Có thể tải lên tệp 'aba' được tạo\n"
+"đến nhiều ngân hàng Úc.\n"
+"\n"
+"Thiết lập\n"
+"-----\n"
+"\n"
+"- * Cấu hình> Tạp chí *\n"
+"\n"
+"    Nếu cần, hãy tạo tạp chí mới hoặc chọn một tạp chí hiện có với ** Loại **\n"
+"    đặt thành * Ngân hàng trực tuyến *.\n"
+"\n"
+"    Trên ** Cài đặt nâng cao **, đảm bảo Chuyển khoản tín dụng ABA được chọn.\n"
+"\n"
+"    Trên tab ** Tài khoản ngân hàng **, nhập ** Số tài khoản **.\n"
+"\n"
+"- * Cấu hình> Tài khoản ngân hàng *\n"
+"\n"
+"    Tài khoản sẽ hiển thị trong danh sách như tên tạp chí.\n"
+"\n"
+"    Chỉnh sửa sẽ hiển thị ** Số tài khoản **. Điều này rất quan trọng vì nó được sử dụng bởi\n"
+"    quá trình ABA.\n"
+"\n"
+"    ** Ngân hàng ** là tùy chọn.\n"
+"\n"
+"- * Bán hàng> Cấu hình> Tài khoản ngân hàng> Tài khoản ngân hàng *\n"
+"\n"
+"    Tài khoản sẽ hiển thị trong danh sách dưới dạng số tài khoản.\n"
+"\n"
+"    ** Thanh toán ABA ** - Đặt thành * Tài khoản để thực hiện Thanh toán ABA *.\n"
+"\n"
+"    ** BSB ** - Bắt buộc, gồm 6 chữ số và sẽ được định dạng tự động.\n"
+"\n"
+"    ** Chủ tài khoản ** - Tùy chọn.\n"
+"\n"
+"    ** Tên tài khoản / người nhận thanh toán ** - Bắt buộc. Nói chung không được xác thực bởi các ngân hàng\n"
+"    về chuyển tập tin ABA và có thể hiển thị trên bảng sao kê ngân hàng của người được thanh toán\n"
+"    khoản thanh toán.\n"
+"\n"
+"    ** Mã tổ chức tài chính ** - Bắt buộc (do ngân hàng cung cấp hoặc có thể được tìm thấy\n"
+"    trên Google). Đó là ba chữ hoa 3 ký tự.\n"
+"\n"
+"    ** Cung cấp tên người dùng ** - Một số ngân hàng cho phép điều này là miễn phí, một số ngân hàng\n"
+"    có thể từ chối tệp ABA nếu Tên người dùng cung cấp không như mong đợi. Nó\n"
+"    không thể dài hơn 26 ký tự.\n"
+"\n"
+"    ** Số nhận dạng (APCA) ** - Số nhận dạng người dùng là ngân hàng\n"
+"    phân bổ. Đó là 6 chữ số.\n"
+"\n"
+"    ** Bao gồm giao dịch tự cân bằng ** - Một số tổ chức yêu cầu\n"
+"    cuối cùng là một giao dịch tự cân bằng được sử dụng như một xác minh.\n"
+"\n"
+"- Tài khoản ngân hàng của nhà cung cấp có thể được thiết lập ở cùng một nơi, tuy nhiên, đó là\n"
+"  thường dễ dàng hơn để thiết lập chúng từ đối tác từ Nhà cung cấp.\n"
+"\n"
+"- * Kế toán> Mua hàng> Nhà cung cấp *\n"
+"\n"
+"    Trên tab ** Bán hàng & Mua hàng **, nhấp vào * \"Tài khoản ngân hàng\" * từ nơi a\n"
+"    tài khoản ngân hàng của nhà cung cấp có thể được tạo hoặc chỉnh sửa.\n"
+"\n"
+"    ** Số tài khoản ** - Bắt buộc.\n"
+"\n"
+"    ** Thanh toán ABA ** - Đặt thành * Cho phép thanh toán ABA cho tài khoản này *.\n"
+"\n"
+"    ** BSB ** - Bắt buộc, gồm 6 chữ số và sẽ được định dạng tự động.\n"
+"\n"
+"    ** Chủ tài khoản ** - Tùy chọn.\n"
+"\n"
+"    ** Tên tài khoản / người nhận thanh toán ** - Bắt buộc. Nói chung không được xác nhận bởi\n"
+"    ngân hàng.\n"
+"\n"
+"Sử dụng\n"
+"---\n"
+"\n"
+"- Tạo một khoản thanh toán của nhà cung cấp theo cách thông thường.\n"
+"\n"
+"    Đảm bảo ** Nhà cung cấp ** là một người có tài khoản thanh toán ABA hợp lệ.\n"
+"\n"
+"    Chọn đúng ** Nhật ký thanh toán ** được đặt cho thanh toán ABA.\n"
+"\n"
+"    Chọn ** Chuyển khoản tín dụng ABA ** nút radio.\n"
+"\n"
+"    Nếu nhà cung cấp có nhiều tài khoản ngân hàng, bạn có thể cần phải chọn\n"
+"    đúng ** Tài khoản ngân hàng người nhận **.\n"
+"\n"
+"    Nhập số tiền thanh toán, v.v.\n"
+"\n"
+"- * Mua hàng> Thanh toán *\n"
+"\n"
+"    Sau khi (các) khoản thanh toán được xác nhận, chúng sẽ hiển thị trong danh sách thanh toán.\n"
+"\n"
+"    Sử dụng các bộ lọc hoặc sắp xếp, chọn các khoản thanh toán được đưa vào. Dưới\n"
+"    * Hành động * chọn * Tải xuống Thanh toán ABA *. Một cửa sổ bật lên xuất hiện cùng với ABA\n"
+"    tập tin mà bạn có thể nhấp vào tập tin để tải xuống cục bộ. Điều này\n"
+"    tập tin sau đó có thể được tải lên ngân hàng.\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_account_auto_transfer
+msgid ""
+"\n"
+"Account Automatic Transfers\n"
+"===========================\n"
+"Manage automatic transfers between your accounts.\n"
+"    "
+msgstr ""
+"\n"
+"Chuyển tài khoản tự động\n"
+"===========================\n"
+"Quản lý các chuyển tự động giữa các tài khoản của bạn.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_generic_auto_transfer_demo
+msgid ""
+"\n"
+"Account Automatic Transfers Demo\n"
+"================================\n"
+"Demo data for account automatic transfers module\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_be_us_consolidation_demo
+msgid ""
+"\n"
+"Account Consolidation Demo Data\n"
+"==================================\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_account_accountant
+msgid ""
+"\n"
+"Accounting Access Rights\n"
+"========================\n"
+"It gives the Administrator user access to all accounting features such as journal items and the chart of accounts.\n"
+"\n"
+"It assigns manager and user access rights to the Administrator for the accounting application and only user rights to the Demo user.\n"
+msgstr ""
+"\n"
+"Các Quyền truy cập kế toán\n"
+"==========================\n"
+"Cho phép Administrator truy cập đến tất cả các tính năng kế toán như bút toán sổ nhật ký, hoạch đồ tài khoản kế toán.\n"
+"\n"
+"Nó gán quyền quản lý và quyền người dùng cho Administrator đối với ứng dụng kế toán và chỉ quyền người dùng cho người dùng Demo.\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_be_hr_payroll_account
+msgid ""
+"\n"
+"Accounting Data for Belgian Payroll Rules.\n"
+"==========================================\n"
+"    "
+msgstr ""
+"\n"
+"Dữ liệu kế toán dành cho quy tắc tính lương của Bỉ.\n"
+"==========================================\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_account_reports
+msgid ""
+"\n"
+"Accounting Reports\n"
+"==================\n"
+"    "
+msgstr ""
+"\n"
+"Báo cáo kế toán\n"
+"==================\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_co_reports
+msgid ""
+"\n"
+"Accounting reports for Colombia\n"
+"================================\n"
+"    "
+msgstr ""
+"\n"
+"Báo cáo kế toán cho Colombia\n"
+"================================\n"
+"\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_fr_reports
+msgid ""
+"\n"
+"Accounting reports for France\n"
+"================================\n"
+"\n"
+"    "
+msgstr ""
+"\n"
+"Báo cáo kế toán cho France\n"
+"================================\n"
+"\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_in_reports
+msgid ""
+"\n"
+"Accounting reports for India\n"
+"================================\n"
+"    "
+msgstr ""
+"\n"
+"Báo cáo kế toán cho India\n"
+"================================\n"
+"\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_sg_reports
+msgid ""
+"\n"
+"Accounting reports for Singapore\n"
+"================================\n"
+"This module allow to generate the GST Return (F5) and the IRAS Audit File.\n"
+" - To generate the GST Return, go to Accounting -> Reporting -> GST Return\n"
+" - To generate the IRAS Audit File, go to Accounting -> Reporting -> IRAS Audit File\n"
+"    "
+msgstr ""
+"\n"
+"Báo cáo kế toán cho Singapore\n"
+"================================\n"
+"Mô-đun này cho phép tạo GST Return (F5) và Tệp kiểm toán IRAS.\n"
+"  - Để tạo Trả về GST, hãy chuyển đến Kế toán -> Báo cáo -> Trả về GST\n"
+"  - Để tạo Tệp kiểm toán IRAS, hãy đi tới Kế toán -> Báo cáo -> Tệp kiểm toán IRAS"
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_contract_reports
+msgid ""
+"\n"
+"Add a dynamic report about contracts and employees.\n"
+"    "
+msgstr ""
+"\n"
+"Thêm một báo cáo linh động về thông tin hợp đồng và nhân viên."
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_latam_base
+msgid ""
+"\n"
+"Add a new model named \"Identification Type\" that extend the vat field functionality in the partner and let the user to identify (an eventually invoice) to contacts not only with their fiscal tax ID (VAT) but with other types of identifications like national document, passport, foreign ID, etc. With this module installed you will see now in the partner form view two fields:\n"
+"\n"
+"* Identification Type\n"
+"* Identification Number\n"
+"\n"
+"This behavior is a common requirement for some latam countries like Argentina and Chile. If your localization has this requirements then you need to depend on this module and define in your localization module the identifications types that are used in your country. Generally these types of identifications are defined by the government authorities that regulate the fiscal operations. For example:\n"
+"\n"
+"* AFIP in Argentina defines DNI, CUIT (vat for legal entities), CUIL (vat for natural person), and another 80 valid identification types.\n"
+"\n"
+"Each identification holds this information:\n"
+"\n"
+"* name: short name of the identification\n"
+"* description: could be the same short name or a long name\n"
+"* country_id: the country where this identification belongs\n"
+"* is_vat: identify this record as the corresponding VAT for the specific country.\n"
+"* sequence: let us to sort the identification types depending on the ones that are most used.\n"
+"* active: we can activate/inactivate identifications to make it easier to our customers\n"
+"\n"
+"In order to make this module compatible for multi-company environments where we have companies that does not need/support this requirement, we have added generic identification types and generic rules to manage the contact information and make it transparent for the user when only use the VAT as we formerly know.\n"
+"\n"
+"Generic Identifications:\n"
+"\n"
+"* VAT: The Fiscal Tax Identification or VAT number, by default will be selected as identification type so the user will only need to add the related vat number.\n"
+"* Passport\n"
+"* Foreign ID (Foreign National Document)\n"
+"\n"
+"Rules when creating a new partner: We will only see the identification types that are meaningful, taking into account these rules:\n"
+"\n"
+"* If the partner have not country address set: Will show the generic identification types plus the ones defined in the partner's related company country (If the partner has not specific company then will show the identification types related to the current user company)\n"
+"\n"
+"* If the partner has country address : will show the generic identification types plus the ones defined for the country of the partner.\n"
+"\n"
+"When creating a new company, will set to the related partner always the related country is_vat identification type.\n"
+"\n"
+"All the defined identification types can be reviewed and activate/deactivate in \"Contacts / Configuration / Identification Type\" menu.\n"
+"\n"
+"This module is compatible with base_vat module in order to be able to validate VAT numbers for each country that have or not have the possibility to manage multiple identification types.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_website_sale_delivery
+msgid ""
+"\n"
+"Add a selection of delivery methods to your eCommerce store.\n"
+"Configure your own methods with a pricing grid or integrate with carriers for a fully automated shipping process.\n"
+"    "
+msgstr ""
+"\n"
+"Thêm lựa chọn phương thức giao hàng vào cửa hàng Thương mại Điện tử của bạn.\n"
+"Định cấu hình các phương thức của riêng bạn với lưới giá hoặc tích hợp với các nhà mạng cho quy trình vận chuyển hoàn toàn tự động.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_contract
+msgid ""
+"\n"
+"Add all information on the employee form to manage contracts.\n"
+"=============================================================\n"
+"\n"
+"    * Contract\n"
+"    * Place of Birth,\n"
+"    * Medical Examination Date\n"
+"    * Company Vehicle\n"
+"\n"
+"You can assign several contracts per employee.\n"
+"    "
+msgstr ""
+"\n"
+"Bổ xung thông tin Nhân sự để quản lý các Hợp đồng lao động.\n"
+"====================================================\n"
+"\n"
+"    * Hợp đồng lao động\n"
+"    * Nơi sinh,\n"
+"    * Ngày kiểm tra y tế\n"
+"    * Phương tiện đi lại (Tài sản của Công ty)\n"
+"\n"
+"Bạn có thể gán một vài hợp đồng lao động cho một nhân viên.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_product_email_template
+msgid ""
+"\n"
+"Add email templates to products to be sent on invoice confirmation\n"
+"==================================================================\n"
+"\n"
+"With this module, link your products to a template to send complete information and tools to your customer.\n"
+"For instance when invoicing a training, the training agenda and materials will automatically be sent to your customers.'\n"
+"    "
+msgstr ""
+"\n"
+"Thêm các mẫu email cho các sản phẩm để gửi kèm khi xác nhận hoá đơn\n"
+"===================================================================\n"
+"\n"
+"Với phân hệ này, liên kết các sản phẩm đến một mẫu để gửi thông tin và công cụ hoàn chỉnh đến khách hàng của bạn.\n"
+"Ví dụ khi xuất hoá đơn cho dịch vụ tập huấn, giáo trình và lịch tập huấn sẽ được tự động gửi đến khách hàng.'\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_documents_project
+msgid ""
+"\n"
+"Add the ability to create invoices from the document module.\n"
+msgstr ""
+"\n"
+"Thêm khả năng tạo hóa đơn từ mô-đun tài liệu.\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_documents_sign
+msgid ""
+"\n"
+"Add the ability to create signatures from the document module.\n"
+"The first element of the selection (in DRM) will be used as the signature attachment.\n"
+msgstr ""
+"\n"
+"Thêm khả năng tạo chữ ký từ mô-đun tài liệu.\n"
+"Phần tử đầu tiên của lựa chọn (trong DRM) sẽ được sử dụng làm tệp đính kèm chữ ký.\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_documents_hr_recruitment
+msgid ""
+"\n"
+"Add the ability to manage resumés and letters from the Documents app.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_product_margin
+msgid ""
+"\n"
+"Adds a reporting menu in products that computes sales, purchases, margins and other interesting indicators based on invoices.\n"
+"=============================================================================================================================\n"
+"\n"
+"The wizard to launch the report has several options to help you get the data you need.\n"
+msgstr ""
+"\n"
+"Thêm một menu báo cáo cho các sản phẩm để tính toán giá mua, giá bán, lợi nhuận và các chỉ số khác dựa trên các hóa đơn.\n"
+"=======================================================================================================\n"
+"\n"
+"Việc cài đặt này sẽ khởi động một báo cáo bao gồm một vào lựa chọn để giúp bạn nhận được dữ liệu theo yêu cầu.\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_pad
+msgid ""
+"\n"
+"Adds enhanced support for (Ether)Pad attachments in the web client.\n"
+"===================================================================\n"
+"\n"
+"Lets the company customize which Pad installation should be used to link to new\n"
+"pads (by default, http://etherpad.com/).\n"
+"    "
+msgstr ""
+"\n"
+"Adds enhanced support for (Ether)Pad attachments in the web client.\n"
+"===================================================================\n"
+"\n"
+"Lets the company customize which Pad installation should be used to link to new\n"
+"pads (by default, http://etherpad.com/).\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_documents_fleet
+msgid ""
+"\n"
+"Adds fleet data to documents\n"
+msgstr ""
+"\n"
+"Thêm dữ liệu đội xe vào tài liệu\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_documents_product
+msgid ""
+"\n"
+"Adds the ability to create products from the document module and adds the\n"
+"option to send products' attachments to the documents app.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_voip_crm
+msgid ""
+"\n"
+"Adds the lead partner to phonecall list\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_pos_enterprise
+msgid ""
+"\n"
+"Advanced features for the PoS like better views \n"
+"for IoT Box config.   \n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_website_calendar
+msgid ""
+"\n"
+"Allow clients to Schedule Appointments through your Website\n"
+"-------------------------------------------------------------\n"
+"\n"
+msgstr ""
+"\n"
+"Cho phép khách hàng lên lịch các cuộc hẹn thông qua trang web của bạn\n"
+"-------------------------------------------------- -----------\n"
+"\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_pos_mercury
+msgid ""
+"\n"
+"Allow credit card POS payments\n"
+"==============================\n"
+"\n"
+"This module allows customers to pay for their orders with credit\n"
+"cards. The transactions are processed by Vantiv (developed by Wells\n"
+"Fargo Bank). A Vantiv merchant account is necessary. It allows the\n"
+"following:\n"
+"\n"
+"* Fast payment by just swiping a credit card while on the payment screen\n"
+"* Combining of cash payments and credit card payments\n"
+"* Cashback\n"
+"* Supported cards: Visa, MasterCard, American Express, Discover\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_website_sale_wishlist
+msgid ""
+"\n"
+"Allow shoppers of your eCommerce store to create personalized collections of products they want to buy and save them for future reference.\n"
+"    "
+msgstr ""
+"\n"
+"Cho phép người mua hàng của cửa hàng Thương mại điện tử của bạn tạo các bộ sưu tập cá nhân các sản phẩm họ muốn mua và lưu chúng để tham khảo trong tương lai.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_auth_oauth
+msgid ""
+"\n"
+"Allow users to login through OAuth2 Provider.\n"
+"=============================================\n"
+msgstr ""
+"\n"
+"Allow users to login through OAuth2 Provider.\n"
+"=============================================\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_auth_signup
+msgid ""
+"\n"
+"Allow users to sign up and reset their password\n"
+"===============================================\n"
+"    "
+msgstr ""
+"\n"
+"Cho phép người dùng đăng ký và thiết lập lại mật khẩu\n"
+"===============================================\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_website_livechat
+msgid ""
+"\n"
+"Allow website visitors to chat with the collaborators. This module also brings a feedback tool for the livechat and web pages to display your channel with its ratings on the website.\n"
+"    "
+msgstr ""
+"\n"
+"Cho phép khách truy cập trang web trò chuyện với các cộng tác viên. Mô-đun này cũng mang đến một công cụ phản hồi cho livechat và các trang web để hiển thị kênh của bạn với xếp hạng của nó trên trang web.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_sale_purchase
+msgid ""
+"\n"
+"Allows the outsourcing of services. This module allows one to sell services provided\n"
+"by external providers and will automatically generate purchase orders directed to the service seller.\n"
+"    "
+msgstr ""
+"\n"
+"Cho phép thuê ngoài dịch vụ. Mô-đun này cho phép một người bán dịch vụ được cung cấp\n"
+"bởi các nhà cung cấp bên ngoài và sẽ tự động tạo đơn đặt hàng mua cho người bán dịch vụ.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_sale_timesheet_purchase
+msgid ""
+"\n"
+"Allows to access purchase orders from Project Overview\n"
+"======================================================\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_voip
+msgid ""
+"\n"
+"Allows to make call from next activities or with click-to-dial.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_sale_timesheet
+msgid ""
+"\n"
+"Allows to sell timesheets in your sales order\n"
+"=============================================\n"
+"\n"
+"This module set the right product on all timesheet lines\n"
+"according to the order/contract you work on. This allows to\n"
+"have real delivered quantities in sales orders.\n"
+msgstr ""
+"\n"
+"Cho phép bán timesheets trên đơn hàng (SO)\n"
+"==========================================\n"
+"\n"
+"Phân hệ này sẽ cho phép bạn chọn sản phẩm trên từng dòng của timesheet\n"
+"theo đơn hàng / hợp đồng mà bạn đang theo. Điều này cho phép bạn có số lượng\n"
+"thực tế để bàn giao trong đơn hàng.\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_sale_amazon_delivery
+msgid ""
+"\n"
+"Allows to use tracking numbers for products sold on Amazon\n"
+"===========================================
